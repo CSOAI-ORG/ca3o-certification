@@ -1,0 +1,43 @@
+{
+  "name": "@meok-global/ca3o-certification",
+  "version": "1.0.0",
+  "description": "CA3O — Certified AI Assurance & Accountability Organization. The CMMC for AI governance. Real-time AI system certification, continuous compliance monitoring, audit-ready evidence generation, and COBOL legacy bridge for enterprise mainframe shops.",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "ca3o-certification-mcp": "dist/index.js"
+  },
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "ca3o",
+    "ai-certification",
+    "cmmc-ai",
+    "ai-governance",
+    "ai-assurance",
+    "accountability",
+    "compliance",
+    "audit",
+    "csoai"
+  ],
+  "author": "MEOK AI Labs — Cyber Security Global Alliance",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meok-global/mcp-servers.git",
+    "directory": "packages/ca3o-certification"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.5.0",
+    "zod": "^3.22.0"
+  }
+}
